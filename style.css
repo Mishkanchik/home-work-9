@@ -592,3 +592,15 @@ body{
     color: #b9d0e7;
  }
 
+
+
+ .footer{
+
+    color: #2c71b8;
+    background-color: #cadbed;
+    text-align: center;
+    line-height: 100px;
+    font-size: 21px;
+    font-family: sans-serif;
+ }
+
