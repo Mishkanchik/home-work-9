@@ -11,8 +11,6 @@ body{
 .container{
 
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
 
 }
@@ -255,11 +253,7 @@ body{
     width: 100%;
 }
 
-.main::after{
-    display: block;
-    content: "";
-    clear: both;
-}
+
 
 [class*=-type]{
     float: left;
@@ -290,10 +284,10 @@ body{
 }
 .col-9{
     padding-top: 30px;
-    width: 73.2%;
+    width: 73.29%;
 }
 .force{
-
+    color: white;
     margin-bottom: 25px;
     font-family: "Roboto";
     width: 100%;
@@ -301,18 +295,300 @@ body{
 
 }
 
-.device-logo{
-    width: 100%;
-    margin-bottom: 60px;
-    font-family: sans-serif;
+.device-header{
+
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.device-header-logo{
+   
+    font-weight: bolder;
+    font-family: "Roboto",sans-serif;
     font-size: 48px;
-    color: #ffbfbf;
+    color: #ffff;
 
 }
 
 
   
+.menu-soft li{
+    width: 270px;
+    font-family: "Roboto";
+    
   
 
 
+}
+
+.menu-soft a{
+
+    display: block;
+    text-decoration: none;
+    padding-left: 15px;
+    text-align: left;
+    line-height: 40px;
+    color: #2c71b8;
+    font-size: 21px;
+
+}
+
+
+
+
+
+.menu-soft > li > a {
+    
+    color: white;
+    border: 1px solid white;
+    background-color: #2c71b8;
  
+}
+.menu-soft > li:hover a{
+
+    background-color: #2c71b8;
+    color: white;
+
+}
+
+
+.submenu-soft {
+        
+     
+        background-color: #2c71b8;
+        position: absolute;
+        
+    
+        z-index: 5;
+        opacity: 2;
+        transform: scaleY(0);
+        transform-origin: 0 0;
+        transition: .5s ease-in-out;
+
+}
+
+.submenu-soft a {
+   
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 21px;
+    line-height: 40px;
+   
+  }
+
+ 
+.submenu-soft li a:hover{
+
+    background-color: white;
+    color: #2c71b8;
+
+
+  }
+  .submenu-soft li:last-child a { border-bottom: none; }
+  .menu-soft > li:hover .submenu-soft {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+
+.col-5{
+    padding-top: 7px;
+    width: 31%;
+}
+.mg-col-1{margin-right: 15px;}
+.mg-col-2{ margin-left: 15px; margin-right: 15px;}
+.mg-col-3{margin-left: 15px;}
+.img{
+    padding-top: 3px;
+    width: 16px;
+    height: 18px;
+    margin-left: 110px;
+}
+
+
+
+
+
+
+.divice{
+    margin-bottom: 30px;
+    height: 650px;
+    width: 100%;
+    background-color: #2f74b99f;
+    text-align: left;
+    border: 1px solid white;
+}
+
+
+.device-image{
+    text-align: center;
+    height: 180px;
+    background-color: #cadbed;
+    line-height: 257px;
+
+}
+.device-image-icon{
+    position: relative;
+    float: left;
+    display: block;
+    background-color: #cadbed;
+    top: -170px;
+    left: 230px;
+    right: 0;
+    z-index: 3;
+    
+
+
+}
+.image-icon-one{
+    cursor: pointer;
+    display: block;
+    padding: 4px;
+    border: 1px solid #548cc5;
+
+
+
+
+}
+
+.image-icon-one-2{
+    cursor: pointer;
+    background-color: #2c71b8;
+    display: block;
+    padding: 4px;
+    border: 1px solid #548cc5;
+
+}
+
+.image-icon-two{
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    padding: 5px;
+    border: 1px solid #548cc5;
+}
+.image-icon-two-2{
+    cursor: pointer;
+    background-color: #2c71b8;
+    margin-top: 10px;
+    display: block;
+    padding: 5px;
+    border: 1px solid #548cc5;
+
+}
+.devices{
+    max-width: 235px;
+    margin: 15px 20px 0px 15px;
+    position: absolute;
+    color: white;
+   
+}
+
+.device-logo{
+    width: 100%;
+    margin-bottom:20px ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+
+.device-text{
+    
+    margin-bottom: 15px;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+
+.type-text{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.span-text{
+    
+    
+    font-family: "Roboto";
+    text-transform: none;
+
+
+}
+.mg-bt{
+    margin-bottom: 15px;
+}
+.bt{
+    margin-bottom: 20px;
+
+}
+
+.money{
+    text-align: center;
+    width: 100%;
+   
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.span-money{
+    vertical-align: text-top;
+    font-size: 30px;
+
+
+}
+
+
+ .details{
+
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    
+
+ }
+ 
+
+ .more-details{
+    border: 1px solid white;
+    background-color: #2c71b8;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+    
+ }
+
+
+ .Add-to-cart{
+    cursor: pointer;
+    background-color: #89b0d77e;
+    color: white;
+    border: 1px solid white;
+    font-size: 21px;
+    width: 100%;
+    height: 45px;
+    text-transform: uppercase;
+
+ }
+
+ .add-img{
+     margin-left: 8px;
+ }
+
+ .load-more{
+
+    font-size: 36px;
+    text-align: center;
+    color: #b9d0e7;
+ }
+
