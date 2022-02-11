@@ -429,20 +429,23 @@ body{
     height: 180px;
     background-color: #cadbed;
     line-height: 257px;
-
+    position: relative;
+    width: 269px;
 }
+
+
 
 .zoom{
     cursor: pointer;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     
     
     background-color: #cadbed;
-    top: -250px;
+    top: 10px;
     border: 1px solid #2c71b8;
-    right: -230px;
+    right: 10px;
    
     width: 30px;
     height: 30px;
@@ -466,13 +469,13 @@ body{
     cursor: pointer;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     
     
     background-color: #cadbed;
-    top: -237px;
+    top: 50px;
     border: 1px solid #2c71b8;
-    right: -230px;
+    right: 10px;
    
     width: 30px;
     height: 30px;
