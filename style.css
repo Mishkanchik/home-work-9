@@ -30,6 +30,7 @@ body{
 
 }
 
+
 .row:after {
 
     content: "";
@@ -260,7 +261,7 @@ body{
     float: left;
 }
 .device-type{
-    margin-right: 20px;
+ 
     display: block;
     background-color: #89b0d77e;
     border: 1px solid white;
@@ -282,7 +283,8 @@ body{
 
 .col-9{
     padding-top: 30px;
-    width: 73.29%;
+    width: 75%;
+    padding-left: 20px;
 }
 .force{
     color: white;
@@ -304,13 +306,13 @@ body{
 
 }
 .col-8{
-    margin-right: 154px;
+
+    margin-right: 147px;
     font-weight: bolder;
     font-family: "Roboto",sans-serif;
     font-size: 48px;
     color: #ffff;
     margin-bottom: 50px;
-
 }
 
 
@@ -392,6 +394,10 @@ body{
   .menu-sort > li:hover .submenu-sort {
     opacity: 1;
     transform: scaleY(1);
+  }
+
+  .add-img{
+      margin-left: 5px;
   }
 
 .col-5{
@@ -540,9 +546,10 @@ body{
 
 }
 .mg-rt{
-    margin-right: 23.5px;
-    margin-left: 23.5px;
+    margin-right: 16px;
+    margin-left: 16px;
 }
+
 
 .product-price{
     text-align: center;
@@ -608,7 +615,10 @@ body{
         background-color: #89b0d77e;
 
  }
-
+.col-4{
+    padding: 2px;
+    
+}
 
  .loading{
 
